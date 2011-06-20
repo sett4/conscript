@@ -6,6 +6,9 @@ object ConscriptBuild extends Build {
   lazy val app: Project =
     Project("conscript", file("app"),
             delegates = conscript :: Nil)
+  lazy val installer: Project =
+    Project("conscript-installer", file("installer"),
+            delegates = conscript :: Nil)
   lazy val plugin: Project =
     Project("conscript-plugin", file("plugin"),
             delegates = conscript :: Nil)

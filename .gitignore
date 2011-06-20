@@ -4,3 +4,4 @@ project/plugins/project/
 project/boot/
 src_managed/
 .history
+user.sbt
